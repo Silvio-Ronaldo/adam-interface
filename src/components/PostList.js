@@ -1,41 +1,30 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import PostItem from './PostItem';
+import api from '../services/api';
 
-class PostList extends Component {
-  state = {
-    posts: [
-      {
-        id: 1,
-        pergunta: 'Qual a cor do produto?',
-        date: '28/2/2020 17:26',
-        resposta: 'Temos na cor preta'
-      },
-      {
-        id: 2,
-        pergunta: 'Obrigado',
-        date: '30/1/2020 17:20',
-        resposta: 'De nada '
-      },
-      {
-        id: 3,
-        pergunta: 'Catapimbas',
-        date: '22/1/2020 10:26',
-        resposta: 'Desculpe, não entendi sua pergunta'
+function PostList() {
+  const[questions, setQuestions] = useState([]);
+
+  useEffect(() => {
+    async function listItems() {
+      const response = await api.get('/getQuestions/product/1');
+      console.log(response);
+
+      if(response.data) {
+        setQuestions(response.data)
       }
-    ]
-  };
+    }
 
-  render() {
-    const { posts } = this.state;
+    listItems();
+  }, []);
 
-    return (
-      <div className="postlist">
-        {posts.map(post => (
-          <PostItem key={post.id} {...post} />
-        ))}
-      </div>
-    );
-  }
+  return (
+    <div className="postlist">
+      {questions.map(question => (
+        <PostItem key={question._id} {...question} />
+      ))}
+    </div>
+  );
 }
 
 export default PostList;

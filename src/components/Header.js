@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Header extends Component {
-  render() {
-    return (
-      <header id="main-header">
-        <div className="content">
-          <p>ADAM - GERENCIADOR DE RESPOSTAS OLIST</p>
-        </div>
-      </header>
-
-    )
-  }
+function Header() {
+  return (
+    <header id="main-header">
+      <div className="content">
+        <p>ADAM - GERENCIADOR DE RESPOSTAS OLIST</p>
+      </div>
+    </header>
+  )
 }
 
 export default Header;
