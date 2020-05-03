@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F2F2F2;
+}
+
+hr{
+  margin-top: 10px;
+  display: block; 
+  height: 1px;
+  border: 0; border-top: 1px solid #ccc;
+  margin: 1em 0; 
+  padding: 0; 
+}
+
+header#main-header{
+  height: 64px;
+  background: #4A90E2;
+}
+
+header#main-header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header#main-header .content img {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+header#main-header .content p {
+  margin-top: 20px;
+  margin-right : 70px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.postlist {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.postlist .post {
+  width: 700px;
+  background: #fff;
+  box-shadow: 3px 3px 3px 3px rgba(100, 100, 100, 0.10);
+  padding: 15px;
+}
+
+
+div.postlist .post .content{
+  margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: #3E3E3E;
+}
+
+
+div.postlist .post .content span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+
+div.question textarea{
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  width: 550px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+div.question input{
+  width: 150px;
+  height: 50px;
+  margin: 8px 0;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  vertical-align: middle;
+}
