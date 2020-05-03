@@ -9,7 +9,9 @@ function App() {
     <>
       <Header/>
       <PostQuestion/>
-      <PostList/>
+      <div className="div-scroll">
+        <PostList/>
+      </div>
     </>
   );
 }

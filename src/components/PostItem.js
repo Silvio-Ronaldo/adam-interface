@@ -5,7 +5,7 @@ function PostItem({ pergunta, date, resposta }) {
     <div className="post">
       <div className="content">
         <p>{pergunta}</p>
-        <p>{resposta} <span>{date}</span></p>
+        <p>R: {resposta} <span>{date}</span></p>
       </div>
       <hr />
     </div>

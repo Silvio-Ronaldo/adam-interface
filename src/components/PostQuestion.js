@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 
 class PostQuestion extends Component {
-  
-
   render() {
-
-    return (
-        
+    return (  
       <div className="question">
         <center>
             <textarea placeholder="Escreva uma pergunta.." maxLength="2000"></textarea>
