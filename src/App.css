@@ -20,8 +20,10 @@ hr {
 }
 
 header#main-header{
+  margin-bottom: 15px;
   height: 64px;
   background: rgb(12, 41, 208);
+  box-shadow: 1px 1px 3px #333;
 }
 
 header#main-header .content {
@@ -127,5 +129,5 @@ div.question input:hover {
 }
 
 p {
-  margin-top: 5px;
+  margin: 8px;
 }
