@@ -4,8 +4,8 @@ function PostItem({ question, createdAt, answer }) {
   return (
     <div className="post">
       <div className="content">
-        <p>{question}</p>
-        <p>R: {answer} <span>{createdAt}</span></p>
+        <p className="question">{question}</p>
+        <p><b>R:</b> {answer ? answer : 'Aguarde a resposta do vendedor.'} <span>{createdAt}</span></p>
       </div>
       <hr />
     </div>

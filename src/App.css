@@ -67,6 +67,7 @@ div.postlist .post {
   width: 700px;
   background: #fff;
   padding: 8px;
+  padding: 10px;
 }
 
 div.postlist .post .content{
@@ -75,6 +76,13 @@ div.postlist .post .content{
   font-size: 14px;
   color: #3E3E3E;
 }
+
+div.postlist .post .content .question{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
 
 div.postlist .post .content span {
   font-family: 'Oxygen', sans-serif;
@@ -88,12 +96,15 @@ div.question textarea{
   border-radius: 4px;
   width: 550px;
   height: 50px;
+  color: #333;
+  font-size: 15px;
   vertical-align: middle;
   font-family: 'Oxygen', sans-serif;
   max-height: 200px;
   max-width: 550px;
   min-height: 50px;
   min-width: 550px;
+  resize: none;
 }
 
 div.question input{
@@ -102,12 +113,19 @@ div.question input{
   margin: 8px 0;
   background-color: rgb(12, 41, 208);
   color: white;
+  font-weight: bold;
+  font-size: 16px;
   border-radius: 4px;
+  border: 1px solid rgb(12, 41, 208);
   vertical-align: middle;
   font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
 }
 
 div.question input:hover {
   opacity: 0.7;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 5px;
 }
