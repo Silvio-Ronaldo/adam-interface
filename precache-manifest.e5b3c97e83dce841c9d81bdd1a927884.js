@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d481196a914fd86127583caacabf9cc",
+    "revision": "ebb3548d3b9580b2fa695ac0073c7fe0",
     "url": "/adam-interface/index.html"
   },
   {
