@@ -50,5 +50,10 @@ Para o futuro pensamos em expandir o ADAM e oferecer novas funcionalidades. Segu
   <img src="https://i.imgur.com/BQ2EFvx.png" height="360" width="720" />
 </p>
 
+### Demonstração 
+Para ver uma pequena demonstração do uso da interface sendo testada para várias perguntas diferentes e de níveis diferentes, acesse o link abaixo:
+
+**https://www.youtube.com/watch?v=4lGKSAq--VA**
+
 ### Muito obrigado!
 Se você gostou do ADAM, por favor deixe uma estrela ou entre em contato para saber mais. Não se esqueça de acessar os links disponibilizados acima para entender melhor o que ele é o que ele faz. Um forte abraço e até mais!
