@@ -118,4 +118,4 @@ Por fim, no último nível e mais complexo dos três, temos as perguntas que nã
 
 
 <h2>⚖️ License</h2>
-<p><strong>Podcastr is MIT licensed, as found in the <a href="./LICENSE">LICENSE file</a>.</strong></p>
+<p><strong>ADAM interface is MIT licensed, as found in the <a href="./LICENSE">LICENSE file</a>.</strong></p>
