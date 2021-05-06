@@ -32,16 +32,16 @@
   📋 Tabela de conteúdos
 </h2>
 <ul>
-  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#introdução">Introdução</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#a-ideia">A ideia</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#-extra-features">Estrutura do ADAM</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-running-locally">Conceitos importantes</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Como testar</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Roadmap</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Demonstração</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Contribuidores</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Autor</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-license">Licença</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#-introdução">Introdução</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#-a-ideia">A ideia</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#%EF%B8%8F-estrutura-do-adam">Estrutura do ADAM</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#-conceitos-importantes">Conceitos importantes</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#-como-testar">Como testar</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#-roadmap-em-breve">Roadmap</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#%EF%B8%8F-demonstração">Demonstração</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#-contribuidores">Contribuidores</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#-autor">Autor</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#%EF%B8%8F-license">Licença</a></li>
 </ul>
 
 
