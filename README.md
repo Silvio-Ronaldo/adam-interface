@@ -23,7 +23,7 @@
   </a>
 </p>
 
-<h1>ADAM</h1>
+<h1>🤖 ADAM</h1>
 
 <p><strong>Este é o repositório da interface para teste e simulação da seção de <i>Perguntas</i> disponível na página de um produto no Mercado Livre. O objetivo é interagir com o ADAM e sua capacidade de resposta. Tal interface não faz parte da solução oferecida pelo produto, mas ajuda a visualizar o poder da solução como se estivesse presente no marketplace.</strong></p>
 
@@ -32,8 +32,8 @@
   📋 Tabela de conteúdos
 </h2>
 <ul>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#-status">Introdução</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">A ideia</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#introdução">Introdução</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/adam-interface#a-ideia">A ideia</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#-extra-features">Estrutura do ADAM</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-running-locally">Conceitos importantes</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Como testar</a></li>
@@ -45,19 +45,19 @@
 </ul>
 
 
-<h2>Introdução</h2>
+<h2>📯 Introdução</h2>
 <p>O ADAM surgiu de uma crescente necessidade de solucionar o problema da quantidade de perguntas que um lojista de marketplace recebe. O fluxo gerado é muito grande e, com isso, o lojista não tem como responder e prestar um bom atendimento a todos. No contexto da COVID-19, esse problema tornou-se urgente, considerando que as vendas online estão sendo mais procuradas.</p>
 
 
-<h2>A Ideia</h2>
+<h2>💡 A Ideia</h2>
 <p>A ideia por trás do ADAM é simples, mas poderosa: automatizar respostas. O ADAM consegue responder grande parte das dúvidas dos clientes, pois a maioria das perguntas têm respostas fixas ou apresentam respostas na própria descrição do produto. Em breve, o ADAM também será capaz de aprender com respostas manuais que ele até então não sabia e aumentar o nível de automação.</p>
 
 
-<h2>Estrutura do ADAM</h2>
+<h2>⛓️ Estrutura do ADAM</h2>
 <p>O ADAM foi projetado utilizando algumas das ferramentas mais poderosas do mercado, tais como, IBM Watson Assistant e IBM Cloud Fuctions. Para saber mais sobre a infraestrutura do ADAM e detalhes de implementação, consulte o repositório e a documentação disponíveis no link a seguir: <strong>https://github.com/JoedSilva18/adam</strong></p>
 
 
-<h2>Conceitos importantes</h2>
+<h2>❗ Conceitos importantes</h2>
 <h3>Níveis</h3>
 <p>No link disposto acima há uma explicação mais detalhada e completa sobre o conceito de níveis usado no ADAM. Porém, aqui vou dar uma explicação mais breve para contextualizar como o ADAM funciona e como ele divide a pergunta que chega até ele.</p>
 <p>Basicamente, o ADAM separa as perguntas em 3 (três) níveis de complexidade. Isso permite efetuar uma automação mais rápida e tratar assertivamente aquilo que não é passível de automação. Vamos dar uma olhada no que cada nível representa:</p>
@@ -79,11 +79,11 @@ Por fim, no último nível e mais complexo dos três, temos as perguntas que nã
   - *8sd7sdsdusk*
   
   
-<h2>Como testar</h2>
+<h2>🔬 Como testar</h2>
 <p>É possível testar o ADAM  e seu funcionamento. Você pode fazer uma pergunta para ele referente ao nível 1 e nível 2. Ele já tem uma certa autonomia para responder perguntas desses dois níveis (ainda baixa, considerando que é um teste e utilizamos uma base pequena de produtos e atributos para fins de hackathon). Perguntas de nível 3 ainda não retornarão respostas, mas em breve estarão disponíveis. Para acessar a interface de simulação e testes, clique no link a seguir: <strong>https://silvio-ronaldo.github.io/adam-interface/</strong></p>
 
 
-<h2>Roadmap (Em breve)</h2>
+<h2>🔮 Roadmap (Em breve)</h2>
 <p>Para o futuro pensamos em expandir o ADAM e oferecer novas funcionalidades. Segue uma imagem ilustrativa do que planejamos e esperamos para a vida próxima do ADAM:</p>
 
 <p align="center">
@@ -91,11 +91,11 @@ Por fim, no último nível e mais complexo dos três, temos as perguntas que nã
 </p>
 
 
-<h2>Demonstração</h2>
+<h2>🖥️ Demonstração</h2>
 <p>Para ver uma pequena demonstração do uso da interface sendo testada para várias perguntas diferentes e de níveis diferentes, acesse o link: <strong>https://www.youtube.com/watch?v=4lGKSAq--VA</strong></p>
 
 
-<h2>Contribuidores</h2>
+<h2>🤝 Contribuidores</h2>
 <table>
   <tr>
     <td align="center"><a href="https://github.com/JoedSilva18"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/41526188?v=4" width="100px;" alt="Joed Silva"/><br /><sub><b>Joed Silva</b></sub></a><br /><a href="https://github.com/JoedSilva18" title="Joed Silva">☕</a></td>
